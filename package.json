@@ -1,0 +1,26 @@
+{
+  "name": "webtoon-downloader",
+  "version": "0.0.1",
+  "description": "Scrapper used to download webtoons from https://www.webtoons.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webtoon",
+    "scraper",
+    "webtoon-dl",
+    "webtoon-download"
+  ],
+  "author": "NachoMG",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
