@@ -1,4 +1,7 @@
 const WebtoonDownloader = require('./WebtoonDownloader');
 
-const webtoonDownloader = new WebtoonDownloader(1221);
-webtoonDownloader.setWebtoonDataFromRequest();
+(async () => {
+    const webtoonDownloader = new WebtoonDownloader(1102);
+    await webtoonDownloader.setWebtoonDataFromRequest();
+    webtoonDownloader.downloadEpisodes('./', 1, 50);
+})();
